@@ -16,3 +16,8 @@ This is the game start up menu, where (2 - 4) players each select a team of 6 un
 So, what are those colored squares? They are the castles of each team, and because they are where your units will start out in the game, they have extra tiles surrounding the castle where units can start. If you are trying this out for yourself, click select, then click a square of your team's color (again whose turn it is indicated by the colored sword) then click one of they gray units from the top to populate that square with that unit. The numbers on the unit icons represent their stats, see the key in the top left (Health, attack, move, range). To clear that unit, click clear and click any of your units. Poof, they are gone. 
 
 Select and clear have dual functionality: click on the white empty space in the grid, and it will add an obstacle- a tile once the game starts that most units cannot traverse. Clearing these black tiles will erase them. Finally, Click the "X PLAYER" button to toggle the amount of players, and the board with update automatically. Next, the cascadiing bars affect the percentage the music is played at. Finally, the colored arrow when clicked will pass the turn to the next team, and hide the the team that you just prepared. Start will start. 
+
+
+<img width="771" alt="BG TEAM" src="https://user-images.githubusercontent.com/60165504/159141332-9fbe26c4-1411-41dd-b495-92428ca81ec5.PNG">
+
+

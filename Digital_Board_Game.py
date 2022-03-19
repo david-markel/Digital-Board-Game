@@ -2137,10 +2137,4 @@ while game_run:
 
 pygame.quit()
 
-# when villager attacks an enemy, then on the next turn that unit dies, he will upgrade
-# what happens when castle attacks
 
-# for red, smoke
-# for blue, rotate
-# for green, the jewel glistens occasionally
-# for yellow, entire parts shine or pop, or the whole thing just moves, rotate left to right

@@ -6,7 +6,13 @@ First and foremost, I have only uploaded this so that any recruiters/employers m
 
 Alrighty, with that out of the way, here's what you need to know about the game: 
 
-To run, you will need to simply compile and run the Digital_Board_Game.py file and pygame will take care of the rest. For the record, I hav used the pygame library in python to make this, and it was sufficient to make the entire thing code-wise. You can ingore all of the other files as most of them are sprite animations for the 20 different units that are in the game. 
+To run, you will need to simply compile and run the Digital_Board_Game.py file and pygame will take care of the rest. For the record, I have used the pygame library in python to make this, and it was sufficient to make the entire thing code-wise. You can ingore all of the other files as most of them are sprite animations for the 20 different units that are in the game. 
 
 Once the game is running you will see this: 
 <img width="771" alt="BG_MENU" src="https://user-images.githubusercontent.com/60165504/159140973-d2d6a9b2-2cdb-4910-baa0-81ecc5fa336d.PNG">
+
+This is the game start up menu, where (2 - 4) players each select a team of 6 units from the available 20 classes. They can also choose the number of players, the level of music volume, and the board "geography." In the above picture, it is the red team's turn, indicated by the red sword pointing to the read squares. What does this mean? Well, the board is the same as a chess board. Overall, this game is basically 4 players chess except you choose a unique combination of "pieces" or units. These units have stats--health, attack, range, and movement--as opposed the move and capture mechanics of chess. 
+
+So, what are those colored squares? They are the castles of each team, and because they are where your units will start out in the game, they have extra tiles surrounding the castle where units can start. If you are trying this out for yourself, click select, then click a square of your team's color (again whose turn it is indicated by the colored sword) then click one of they gray units from the top to populate that square with that unit. The numbers on the unit icons represent their stats, see the key in the top left (Health, attack, move, range). To clear that unit, click clear and click any of your units. Poof, they are gone. 
+
+Select and clear have dual functionality: click on the white empty space in the grid, and it will add an obstacle- a tile once the game starts that most units cannot traverse. Clearing these black tiles will erase them. Finally, Click the "X PLAYER" button to toggle the amount of players, and the board with update automatically. Next, the cascadiing bars affect the percentage the music is played at. Finally, the colored arrow when clicked will pass the turn to the next team, and hide the the team that you just prepared. Start will start. 

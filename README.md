@@ -4,7 +4,7 @@ Original Board game for 2 to 4 players
 ****FOR CONTEXT****
 First and foremost, I have only uploaded this so that any recruiters/employers may examine this game that I have created. If you are not a recruiter/employer, or somebody I have personally invited to view this code, then 1) How on earth did you find this? 2) Please click away. I am not ready to release the game, although it is fully operational. Notice that I have not said that is complete in that I wrote this code before I started college as a way to teach myself python while also creating a passion project to play with friends and family. While it is not all bad, it certainly needs to be cleaned up, (there are a couple of global variables declared, for ex.). Nonetheless, the code works and I have played the game a countless amount of times. I will go back when I have the time to optimize it and make it adhere to conventions using my newfound coding knowledge from my education. I am very proud of this project, as unpolished as it may be, as it demonstrates that I know how to program an ambitious project from start to finish. 
 
-Alrighty, with that out of the way, here's what you need to know about the game: 
+In sum, the goal of sharing this is to let a recruiter/employer explore my project, not to be a thorough game manual as I'm not trying to release this yet. Alrighty, with that out of the way, here's what you need to know about the game: 
 
 To run, you will need to simply compile and run the Digital_Board_Game.py file and pygame will take care of the rest. For the record, I have used the pygame library in python to make this, and it was sufficient to make the entire thing code-wise. You can ingore all of the other files as most of them are sprite animations for the 20 different units that are in the game. 
 
@@ -20,4 +20,18 @@ Select and clear have dual functionality: click on the white empty space in the 
 
 <img width="771" alt="BG TEAM" src="https://user-images.githubusercontent.com/60165504/159141332-9fbe26c4-1411-41dd-b495-92428ca81ec5.PNG">
 
+You've hit start, and now you see a new view. Each team has its own background and song that plays when it is their turn (hopefully this adds uniqueness and pride to a specific team as each one has its own theme). Also, whoever's turn it is, their active units sprite animation will play. You'll also notice that ATTACK has replaced CLEAR, and that SELECT has different functionality. This brings us how to actually control the game. Up until now, its been entirely mouse and click operated. Now, when you click select, and then click one of your units, you can move them by using WASD which moves units up, left, down, and right respectively. Additionally, if one wants to toggle between selecting and attacking, they can hit 1 for select, and 2 for attack. Or just clicking those buttons is fine. Once a unit is selected, that unit's name and stats will appear to the left. Below that the three most recent actions of any team will appear. What is an action? In each player's turn they will get get three actions. An action is a move followed by an optional attack. A unit can move horizontally and vertically up to the number of move points they have. Then, while that unit is still selected , one can toggle to attack (again by clicking ATTACK or pressing 2), then click on an enemy unit. This unit will lose the amount of health points equal to the selected units 
+attack power. Or, you are a healing unit and you clicked your own teammate, it will heal them that healing power of the selected unit. 
+After three actions, the turn will automatically end. To end the turn manually just click the arrow. Some units are "behind units." They are the 3 last units from the end
+and they are clicked with the right mouse button. Why is this? Because these are the only units that can be left on top of other units, as they add a special
+bonus to the units they are behind. In addition, one might ask, what happens if "normal units" are on top of each other? Then they cannot attack or pass the turn.
+However, they can still do this as it is required to move through one of our own units. However, units may not move through another team's units. 
+
+Basically this is the game, taking turns moving units and, well, killing each other. The last team standing wins. Castles also provide functinality, that I won't get
+into, but basically they can be attacked to and if they fall, the entire team automatically gets wiped out. Hopefully this has been enough for one to explore the 
+game and what it is about. Again there are more specific rules; for exmample, 7 units have completely unqiue abilites that have their own logic and rules. 
+Otherwise the units are differentiated solely by their stats. I could get into the specifics of ranges, turns, and whatnot, but this should suffice to get a 
+gist of the game and its scope. Hopefully you found it interesting. 
+
+I am happy to talk more about it and answer any questions in an interview ;)
 
